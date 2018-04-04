@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+body, html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: #777;
+}
+
+.bgimg-1, .bgimg-2, .bgimg-3 {
+  position: relative;
+  opacity: 0.70;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.bgimg-1 {
+  background-image: url("https://img1.goodfon.com/wallpaper/big/8/d9/makro-trava-zelen-derevya.jpg");
+  min-height: 100%;
+}
+
+.bgimg-2 {
+  background-image: url("https://udemy-images.udemy.com/course/750x422/1218586_9f86.jpg");
+  min-height: 400px;
+}
+
+.bgimg-3 {
+  background-image: url("https://i.stack.imgur.com/0kVU5.gif");
+  min-height: 400px;
+}
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.caption span.border {
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+
+h3 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
+  color: #111;
+}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+    .bgimg-1, .bgimg-2, .bgimg-3 {
+        background-attachment: scroll;
+    }
+}
+</style>
+</head>
+<body>
+
+<div class="bgimg-1">
+  <div class="caption">
+  	<p> RUPALI MESHRAM</p>
+    <span class="border">ABOUT ME</span>
+  </div>
+</div>
+
+<div style="color:black;background-color:white;text-align:center;font-family: 'Space Mono', 'Arial', 'serif';padding:50px 80px;text-align: justify;">
+  <h3 style="text-align:center;">ABOUT ME</h3>
+  <!-- <p>" To me, programming is a way of looking at things.As a painter understand the world through his art, I use programming as a way to reason about phenomena and model them."</p>
+  
+    <ul>
+    <li>I am a software Developer who loves to develope software to build great products and help businesses succeed with their goals.</li>
+    <li>I appreciate good design and I am seeing it's importance more then ever in todays apps, web sites and products.</li>
+    <li>I have been working professionally in software development since 2008 in dot net development and Quality Assuarance.</li>
+    <li>Currently doing certification of Full stack Developement from UNH boot camp</li>
+    </ul> -->
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+          <h2>About Me</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <ul class="info">
+            <li><span class="first-block">Full Name:</span><span class="second-block">Rupali Meshram</span></li>
+            <li><span class="first-block">Address:</span><span class="second-block">Portsmouth,NH 03801</span></li>
+            <li><span class="first-block">Email:</span><span class="second-block">meshram.rupali86@gmail.com</span></li>
+            
+          </ul>
+        </div>
+        <div class="col-md-8">
+          <h2>Hello There!</h2>
+          <p>" To me, programming is a way of looking at things.As a painter understand the world through his art, I use programming as a way to reason about phenomena and model them."</p>
+          <p>I am a software Developer who loves to develope software to build great products and help businesses succeed with their goals.
+          I appreciate good design and I am seeing it's importance more then ever in todays apps, web sites and products.
+          I have been working professionally in software development since 2008 in dot net development and Quality Assuarance.
+          Currently doing certification of Full stack Developement from UNH boot camp.</p>
+          <p>
+            <!-- <ul class="fh5co-social-icons">
+              <li><a href="https://twitter.com/Rupali_8086"><i class="icon-twitter2"></i></a></li>
+              <li><a href="https://www.linkedin.com/in/rupali-meshram/"><i class="icon-linkedin2"></i></a></li>
+              <li><a href="https://stackoverflow.com/users/8968927/rupali"><i class="icon-stackoverflow"></i></a></li>
+              <li><a href="https://github.com/rupali8086"><i class="icon-github2"></i></a></li>
+            </ul> -->
+          </p>
+        </div>
+      </div>
+    </div>
+</div>
+
+<div class="bgimg-2">
+  <div class="caption">
+    <span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;"></span>
+  </div>
+</div>
+
+<div style="position:relative;">
+  <div style="color:#ddd;background-color:white;text-align:center;padding:50px 80px;text-align: justify;">
+    <p>Scroll up and down to really get the feeling of how Parallax Scrolling works.</p>
+    <div class="w3-row-padding w3-margin-top">
+        <div class="w3-third">
+          <div class="w3-card">
+            <img src="img_5terre.jpg" style="width:100%">
+            <div class="w3-container">
+              <h5>5 Terre</h5>
+            </div>
+          </div>
+        </div>
+
+        <div class="w3-third">
+          <div class="w3-card">
+            <img src="img_monterosso.jpg" style="width:100%">
+            <div class="w3-container">
+              <h5>Monterosso</h5>
+            </div>
+          </div>
+        </div>
+
+        <div class="w3-third">
+          <div class="w3-card">
+            <img src="img_vernazza.jpg" style="width:100%">
+            <div class="w3-container">
+              <h5>Vernazza</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="w3-row-padding w3-margin-top">
+        <div class="w3-third">
+          <div class="w3-card">
+            <img src="img_manarola.jpg" style="width:100%">
+            <div class="w3-container">
+              <h5>Manarola</h5>
+            </div>
+          </div>
+        </div>
+
+        <div class="w3-third">
+          <div class="w3-card">
+            <img src="img_corniglia.jpg" style="width:100%">
+            <div class="w3-container">
+              <h5>Corniglia</h5>
+            </div>
+          </div>
+        </div>
+
+        <div class="w3-third">
+          <div class="w3-card">
+            <img src="img_riomaggiore.jpg" style="width:100%">
+            <div class="w3-container">
+              <h5>Riomaggiore</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+
+  </div>
+</div>
+
+<div class="bgimg-3" style="background-image: url(https://www.tatorivas.com/wp-content/uploads/2016/10/Contacto-Banner-L-1.jpg)">
+  <div class="caption">
+    <span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;"></span>
+  </div>
+</div>
+
+<div style="position:relative;">
+  <div style="color:black;background-color:white;text-align:center;padding:50px 80px;text-align: justify;">
+    <!-- <p>Scroll up and down to really get the feeling of how Parallax Scrolling works.</p> -->
+    <footer id="footer">
+        <div class="container ">
+          <center id="contact">
+              <a href="https://github.com/rupali8086" target="_blank" title="Github" > 
+                <img  src="assets/image/Octocat.png" alt="Git" id="social-link" />
+              </a>
+            
+              <a href="https://www.linkedin.com/in/rupali-meshram/" target="_blank" title="Linkdin"> 
+                <img src="assets/image/link.png" alt="Linkdin" id="social-link"/>
+              </a>
+            
+              <a href="https://stackoverflow.com/users/8968927/rupali" target="_blank" title="stackoverflow">
+                <img src="assets/image/stack.png" alt="Stack"  id="social-link"/>
+              </a>
+          </center>
+            
+           <center>
+              <br><br>
+              <p><strong>Rupali Meshram</strong></p>
+              <br>
+              <p>Full satck Developer</p><br>
+              
+                  <i class="fa fa-envelope-o fa-fw"></i> <a href="mailto:name@example.com">rupali.meshram86@gmail.com</a>
+                  
+              <!-- <br><br>
+              <h3>&copy;2018 Copyright Rupali Meshram</h3> -->
+            </center>
+
+            <nav class="navbar fixed-bottom navbar-dark bg-dark"">
+              <center>
+                <a class="navbar-brand" href="#">&copy;2018 Copyright Rupali Meshram</a>
+              </center>
+            </nav>
+
+        </div>
+            
+     </footer>
+  </div>
+</div>
+
+<div class="bgimg-1">
+  <div class="caption">
+    <!-- <span class="border">COOL!</span> -->
+    <!-- Footer -->
+  
+  </div>
+</div>
+
+</body>
+</html>
